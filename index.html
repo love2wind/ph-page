@@ -84,7 +84,7 @@
     }
 
     .tips, .example {
-        color: #7b7b7b;
+        color: #fff;
         position: relative;
         align-self: flex-start;
         margin-left: 7.5em;
@@ -94,14 +94,14 @@
         position: absolute;
         left: -3em;
         content: 'PS：';
-        color: #7b7b7b
+        color: #fff
     }
 
     .example > p:first-child::before {
         position: absolute;
         left: -7.5em;
         content: '合法输入示例：';
-        color: #7b7b7b
+        color: #fff
     }
 </style>
 <head>
@@ -117,7 +117,7 @@
     </script>
     <title>GitHub 文件加速</title>
 </head>
-<body class="flex">
+<body class="flex" style="background-size: cover;background-repeat: no-repeat;background-position: center center;backface-visibility: hidden;background-image: url("/bg.jpg");">
 <a style="position: absolute;top: 0;right: 0;" href="https://github.com/hunshcn/gh-proxy"><img width="149" height="149" referrerPolicy="no-referrer"
                                                                                                src="https://inews.gtimg.com/newsapp_ls/0/12025455907/0"
                                                                                                alt="Fork me on GitHub"
@@ -141,7 +141,7 @@
     </div>
 </form>
 <p style="position: sticky;top: calc(100% - 2.5em);">项目基于Cloudflare Workers，开源于GitHub <a style="color: #3294ea"
-                                                                                         href="https://github.com/hunshcn/gh-proxy">hunshcn/gh-proxy</a>
+                                                                                         href="https://github.com/hunshcn/gh-proxy">gh-proxy</a>
 </p>
 </body>
 </html>
